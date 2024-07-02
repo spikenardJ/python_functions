@@ -15,7 +15,7 @@ def add_item(item):
 def remove_item(item):
     global shopping_list
     shopping_list.remove(item)
-    print(f"{item} has been removed from your shopping list.", (item))
+    print(f"{item} has been removed from your shopping list.")
 
 
 # Task 3: Add a function that prints out the entire list in a formatted way.
